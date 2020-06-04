@@ -21,7 +21,7 @@ app.use(express.static(path.resolve(__dirname, 'public')))
 const botName = 'ChatCord Bot'
 
 // Run when client connect
-io.on('connection', socket => {
+io.on('connection', (socket) => {
   socket.on('joinRoom', ({ username, room }) => {
     const user = userJoin(socket.id, username, room)
 
@@ -46,7 +46,7 @@ io.on('connection', socket => {
   })
 
   // Listen fot chatMessages
-  socket.on('chatMessage', message => {
+  socket.on('chatMessage', (message) => {
     const user = getCurrentUser(socket.id)
 
     io.to(user.room).emit('message', formatMessage(user.username, message))
@@ -71,4 +71,4 @@ io.on('connection', socket => {
   })
 })
 
-server.listen(process.env.PORT || 3000, () => console.log('Server running'))
+server.listen(process.env.PORT || 3333, () => console.log('Server running'))
