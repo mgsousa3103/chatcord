@@ -1,4 +1,4 @@
-![chatcord](https://www.linkedin.com/feed/update/urn:li:activity:6651274323690602496/)
+[chatcord](https://www.linkedin.com/feed/update/urn:li:activity:6651274323690602496/)
 
 ![](https://img.shields.io/github/issues/mgsousa3103/chatcord) ![](https://img.shields.io/github/forks/mgsousa3103/chatcord) ![](https://img.shields.io/github/stars/mgsousa3103/chatcord) ![](https://img.shields.io/github/license/mgsousa3103/chatcord)
 
