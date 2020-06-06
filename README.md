@@ -1,27 +1,38 @@
+<h1 align="center">
+<br>
+  <img src="https://user-images.githubusercontent.com/22710485/83950779-99632000-a803-11ea-82a4-8be9f2f95bf1.png" alt="Ecoleta" width="120">
+<br>
+<br>
+Chatcord
+</h1>
+
+<p align="center">
+This project consists of creating a chat in real time</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/mgsousa3103/Chatcord" alt="License MIT">
+  </a>
+</p>
+
 ![chatcord](https://user-images.githubusercontent.com/22710485/83811645-93006700-a690-11ea-8f35-51e4730b5e32.PNG)
 
-![](https://img.shields.io/github/issues/mgsousa3103/chatcord) ![](https://img.shields.io/github/forks/mgsousa3103/chatcord) ![](https://img.shields.io/github/stars/mgsousa3103/chatcord) ![](https://img.shields.io/github/license/mgsousa3103/chatcord)
+---
 
-## Chatcord [Chat em Tempo Real]
+## Features
 
-:smile: Chat em tempo real utilizando tecnologias como:
+- 💹 NodeJS
+- 💹 Express
+- 💹 Moment
+- 💹 Socket.io
 
-- _Express_
-- _Moment_
-- _Socket.io_
+## Getting started
 
-#### Passo-a-passo para rodar o chat
+1. Clone this repo using `git clone https://github.com/mgsousa3103/Chatcord.git`
+2. Move yourself to the appropriate directory: `cd Chatcord`
+3. Run `yarn` to install dependencies
+4. Run `yarn start` to start the application
 
-Realize o download do repositório ou realize um **git clone** na sua pasta de projetos.
+## License
 
-Acesse o repositório no seu terminal e rode o comando `npm install` ou `yarn`.
-
-Isso irá baixar as dependências do projeto.
-
-Após isso é só digitar `npm run start` ou `yarn start` e o chat já estará funcionando em `http://localhost:3333`
-
-## :memo: Licença
-
-Projeto sob a licença [MIT](https://choosealicense.com/licenses/mit/). Para mais detalhes acesse [LICENSE](LICENSE.md)
-
-Made by [Matheus Guedes](https://www.linkedin.com/in/matheusgsousa/) :metal:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) page for details
